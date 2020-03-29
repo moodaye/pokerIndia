@@ -16,9 +16,10 @@ Software to support multiple forms of poker including 3 card poker (teen patti).
   #### State 
   #### Angular (User Interface)
 ## MVP
-  * Texas Holdem Only
-  * 11 players max per game
-  * Standard option only for chips and buying 
+  * Any game - dealer controls
+  * System only had random dealing functionality. 
+  * Players reponsible for determining legal moves; numbers of hole cards; etc.
+  * Unlimited players max per game
   * Simplified table 
   * No registration logic
   * No state beyond game lifecycle
