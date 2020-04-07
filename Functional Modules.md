@@ -5,7 +5,7 @@ Games will suport custom games wherein the dealer determines how many decks, how
 * Predefined Games
 * Custom Games
 ### Betting and Stakes
-Betting will support teen patti style betting with 'seen' bets being double of 'blind' bets.
+Betting will support teen patti style betting with 'seen' bets being double of 'blind' bets. The user will be allowed to set the minimum bets - the structure will be dependent on the game. So for example, for teen patti - we need to specify the maximum number of blind rounds.  And the fact that seen requires double the bet. So for teen patti - the system and the game players will know when the user has seen his cards.
 ### UI
 Standard poker UI - oval table; chip sounds; alarms; pre-bets, etc.
 ### Metrics
