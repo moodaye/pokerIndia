@@ -21,4 +21,4 @@ Member since; chip balance;
 ### Metrics
 History of poker games and results; winnings
 ### Security
-Support non-registered access and accounts
+Support non-registered access and accounts.  For open access, the user will simply need a link to a game.
