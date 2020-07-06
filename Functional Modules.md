@@ -9,6 +9,7 @@ Betting will support teen patti style betting with 'seen' bets being double of '
 ### UI
 * Home Page
 * Profile
+  * Profile
   * Sign up
   * Sign in
   * Forgot Password
