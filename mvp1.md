@@ -24,4 +24,18 @@ Hand Lifecyle:  The controller initiates the start of a hand.  The ssytem assign
 
 The UI will be sofisticated. So it will have a clean look and feel and appropriate branding. The design is tbd.
 
+To get something barebones going - now that we have a poc with websockets established - we could probably have a simple text based version to get things going. The text based system will have the following:
+------------------------------------------------------------------
+[text box for bet] [bottons for fold or check]
 
+<Name> <Chip Count> [D|SB|BB| ** [folder] [bet amnt]
+<Name> <Chip Count> [D|SB|BB| ** ??
+<Name> <Chip Count> [D|SB|BB| ** 
+<Name> <Chip Count> [D|SB|BB| ** 
+<Name> <Chip Count> [D|SB|BB| ** 
+
+pot: 
+[flop][turn][river]
+-------------------------------------------------------------------
+
+Next step:  checkin poc code.
