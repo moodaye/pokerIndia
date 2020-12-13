@@ -23,7 +23,7 @@ public class ScheduledTasks {
 	@Autowired
 	SimpMessagingTemplate smt;
 	
-	@Scheduled(fixedRate = 5000)
+//	@Scheduled(fixedRate = 5000)
 	public void dealTwoCards() throws Exception{
 		log.info("dealing");
 		mal.p();
