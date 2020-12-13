@@ -1,4 +1,4 @@
-MVP1
+MVP1:
 
 12 player max table.
 Texas holdem only
