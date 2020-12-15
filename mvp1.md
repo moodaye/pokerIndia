@@ -40,4 +40,4 @@ pot:
 
 -------------------------------------------------------------------
 
-Next step:  checkin poc code.
+Next step:  Wireframe the text based game.
