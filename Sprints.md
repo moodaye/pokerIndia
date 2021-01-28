@@ -13,7 +13,13 @@
     #### Complete Backlog - to MVP 1
 
 ## BackLog
-  ### Setup Prod Environment
-  * SALDJLASJDLKSAKDASKL 
-    * Asdlj Aaskldjl bAslklabaskl
+
+### Overall Architecture - Logical
+### Overall Architecture - Physical
+### Continuous Deployment
+### MPV 1.0
+  * UI
+  * BackEnd Services
+  * Database
+### Setup Prod Environment
     
