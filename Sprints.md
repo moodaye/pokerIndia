@@ -18,6 +18,7 @@
 ### Overall Architecture - Physical
 ### Continuous Deployment
 ### MPV 1.0
+  * Detailed design architecture diagram (flow diagram ok)
   * UI
   * BackEnd Services
   * Database
