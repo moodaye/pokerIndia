@@ -41,3 +41,7 @@ pot:
 -------------------------------------------------------------------
 
 Next step:  Wireframe the text based game.
+
+
+Notes:
+* When running locally on different ports (UI and Rest End Point) - the 	@CrossOrigin(origins = "http://localhost:4200") annotation is required on the method.  This adds Access-Control-Allow-Origin: http://localhost:4200 to the response header.
