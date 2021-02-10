@@ -44,4 +44,5 @@ Next step:  Wireframe the text based game.
 
 
 Notes:
-* When running locally on different ports (UI and Rest End Point) - the 	@CrossOrigin(origins = "http://localhost:4200") annotation is required on the method.  This adds Access-Control-Allow-Origin: http://localhost:4200 to the response header.
+* When running locally on different ports (UI and Rest End Point) - the 	@CrossOrigin(origins = "http://localhost:4200") annotation is required on the method.  This adds Access-Control-Allow-Origin: http://localhost:4200 to the response header.  This won't be an issue for production and even dev deployment since the host/port will be identical for the server side and from where the angular application is hosted.
+* 
