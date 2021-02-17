@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { CreateGameService } from './services/create-game.service';
 
 @Component({
   selector: 'app-root',
@@ -9,10 +8,4 @@ import { CreateGameService } from './services/create-game.service';
 export class AppComponent {
   title = 'pokerIndiaUI';
 
-  constructor(private createGameService: CreateGameService){}
-
-  createGame(){
-    console.log("create game called");
-    this.createGameService.createGame().subscribe((resp) => console.log(resp));
-  }
 }
