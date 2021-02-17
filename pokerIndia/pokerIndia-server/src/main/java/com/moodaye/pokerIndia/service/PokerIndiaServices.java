@@ -1,4 +1,4 @@
-package com.moodaye.pokerIndia.model;
+package com.moodaye.pokerIndia.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,22 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.moodaye.pokerIndia.model.Game;
 
-@SpringBootApplication
-@RestController
+@SpringBootApplication(scanBasePackages = "com.moodaye.pokerIndia")
 public class PokerIndiaServices {
-
-	@CrossOrigin(origins = "http://localhost:4200")
-	@GetMapping("/game")
-	public String getGames() {
-		return "This call will retrieve all games for the current player";
-	}
-	
-	@CrossOrigin(origins = "http://localhost:4200")
-	@PutMapping("/game")
-	public Game createGames() {
-		return new Game();
-	}
-	
 	public static void main(String[] args) {
 		SpringApplication.run(PokerIndiaServices.class);
 	}
