@@ -10,13 +10,13 @@ import com.moodaye.pokerIndia.model.Game;
 @RestController
 public class GameController {
 
-//	@CrossOrigin(origins = "http://localhost:4200")
+//	@CrossOrigin(origins = "http://rajiv:8080")
 	@GetMapping("/game")
 	public String getGames() {
 		return "This call will retrieve all games for the current player";
 	}
 	
-//	@CrossOrigin(origins = "http://localhost:4200")
+//	@CrossOrigin(origins = "http://rajiv:8080")
 	@PutMapping("/game")
 	public Game createGames() {
 		return new Game();

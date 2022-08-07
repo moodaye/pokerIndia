@@ -3,7 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  domainPokerIndia: "localhost:8080",
+  domainPokerIndia: "rajiv:8080",
   gameService: "/game",
   production: false
 };
